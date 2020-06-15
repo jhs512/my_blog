@@ -14,13 +14,15 @@
 
 <body>
     <div class="mobile-top-bar visible-sm-down flex">
-        <a href="#" class="btn-toggle-mobile-side-bar flex-as-c">
+        <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex-as-c">
             <div></div>
             <div></div>
             <div></div>
         </a>
     </div>
 
+    <div class="mobile-side-bar-bg">
+    </div>
     <div class="mobile-side-bar">
     </div>
 
