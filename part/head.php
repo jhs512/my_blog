@@ -21,13 +21,19 @@
         </a>
     </div>
 
-    <div class="mobile-side-bar-bg">
+    <div class="mobile-side-bar-bg visible-sm-down">
     </div>
-    <div class="mobile-side-bar">
+    <div class="mobile-side-bar visible-sm-down">
         <nav class="menu-box-1">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Articles</a></li>
+                <li>
+                    <a href="#">Articles</a>
+                    <ul>
+                        <li><a href="#">Notice</a></li>
+                        <li><a href="#">Fee</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">About Me</a></li>
                 <li>
                     <a href="#">SNS</a>
@@ -43,9 +49,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/jhs512" target="_blank">
+                            <a href="#">
                                 INSTA
                             </a>
+                            <ul>
+                                <li><a href="#">Private</a></li>
+                                <li><a href="#">Public</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </li>

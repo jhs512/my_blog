@@ -447,13 +447,33 @@ label[for] {
     left:0;
 }
 
-.mobile-side-bar .menu-box-1 > ul > li.active > ul {
+.mobile-side-bar .menu-box-1 ul > li > a {
+    display:block;
+    font-weight: bold;
+    padding:15px;
+}
+
+.mobile-side-bar .menu-box-1 ul > li > a:not(:only-child)::after {
+    content:"[+]";
+    float:right;
+}
+
+.mobile-side-bar .menu-box-1 ul > li.active > a:not(:only-child)::after {
+    content:"[-]";
+}
+
+.mobile-side-bar .menu-box-1 ul > li.active > a:not(:only-child) {
+    background-color:black;
+    color:white;
+}
+
+.mobile-side-bar .menu-box-1 ul > li.active > ul {
     display: block;
 }
 
 .mobile-side-bar .menu-box-1 > ul ul {
-    background-color:red;
     display:none;
+    padding-left:20px;
 }
 
 .mobile-side-bar-bg {
@@ -470,5 +490,11 @@ label[for] {
 .mobile-side-bar-bg.active {
     visibility: visible;
     background-color:rgba(0,0,0,.7);
+}
+
+@media (max-width:799px) {
+    html.mobile-side-bar-actived {
+        overflow-y: hidden;
+    }
 }
 /* 모바일 사이드 바 끝 */
