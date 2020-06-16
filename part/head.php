@@ -24,6 +24,33 @@
     <div class="mobile-side-bar-bg">
     </div>
     <div class="mobile-side-bar">
+        <nav class="menu-box-1">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">About Me</a></li>
+                <li>
+                    <a href="#">SNS</a>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/jhs512" target="_blank">
+                                GITHUB
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/jhs512" target="_blank">
+                                FACEBOOK
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/jhs512" target="_blank">
+                                INSTA
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
     </div>
 
     <div class="top-bar visible-md-up">

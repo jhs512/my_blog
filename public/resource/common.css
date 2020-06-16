@@ -439,12 +439,21 @@ label[for] {
     left:-300px;
     width:300px;
     bottom:0;
-    background-color:red;
+    background-color:white;
     transition: left .3s;
 }
 
 .mobile-side-bar.active {
     left:0;
+}
+
+.mobile-side-bar .menu-box-1 > ul > li.active > ul {
+    display: block;
+}
+
+.mobile-side-bar .menu-box-1 > ul ul {
+    background-color:red;
+    display:none;
 }
 
 .mobile-side-bar-bg {
