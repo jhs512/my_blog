@@ -37,7 +37,4 @@ function MobileSideBar__init() {
 
 $(function() {
     MobileSideBar__init();
-
-    $('.btn-toggle-mobile-side-bar').click();
-    $('.mobile-side-bar .menu-box-1 > ul > li:last-child').click();
 });
