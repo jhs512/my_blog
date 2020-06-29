@@ -2,7 +2,7 @@
 include "../part/head.php";
 ?>
 <?php
-$conn = mysqli_connect("127.0.0.1", "root", "", "blog", 3306);
+$conn = mysqli_connect("site20.blog.oa.gg", "site20", "sbs123414", "site20", 3306);
 $id = $_GET['id'];
 $sql = "
 SELECT *
