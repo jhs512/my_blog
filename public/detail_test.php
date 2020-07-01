@@ -1,11 +1,11 @@
 <?php
 $id = $_GET['id'];
 
-$dbHost = "site10.blog.oa.gg"; // 컴퓨터 까지 접근 가능
+$dbHost = "site20.blog.oa.gg"; // 컴퓨터 까지 접근 가능
 $dbPort = 3306; // 컴퓨터 안에 있는 MySQL에게 까지 접근가능
-$dbId = 'site10';
+$dbId = 'site20';
 $dbPw = 'sbs123414'; //' MySQL안으로 통과까지 가능
-$dbName = 'site10'; // 알맞은 DB까지 접근가능
+$dbName = 'site20'; // 알맞은 DB까지 접근가능
 
 $dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName, $dbPort) or die("DB CONNECTION ERROR");
 
